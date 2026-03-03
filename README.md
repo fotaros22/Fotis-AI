@@ -1,4 +1,4 @@
-# AI Chatbot
+# Fotis-AI
 
 A simple AI chatbot using Hugging Face Transformers.
 
@@ -6,10 +6,5 @@ A simple AI chatbot using Hugging Face Transformers.
 
 1. Clone the repo:
 ```bash
-git clone https://github.com/your-username/ai-chatbot.git
-cd ai-chatbot
-python -m venv venv       # creates a virtual environment
-source venv/bin/activate  # Linux/Mac → activates it
-venv\Scripts\activate     # Windows → activates it
-pip install -r requirements.txt  # installs dependencies
-python chatbot.py
+git clone https://github.com/your-username/Fotis-AI.git
+cd Fotis-AI
