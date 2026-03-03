@@ -1,2 +1,10 @@
-# Fotis-AI
-My own custom ai i speedrunned. still first version. keep in touch for more
+# AI Chatbot
+
+A simple AI chatbot using Hugging Face Transformers.
+
+## Setup
+
+1. Clone the repo:
+```bash
+git clone https://github.com/your-username/ai-chatbot.git
+cd ai-chatbot
