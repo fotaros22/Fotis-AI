@@ -1,4 +1,3 @@
-# chatbot.py
 from transformers import AutoModelForCausalLM, AutoTokenizer
 import torch
 from config import MODEL_NAME
@@ -14,10 +13,10 @@ def chat(input_text):
     return response
 
 if __name__ == "__main__":
-    print("AI Chatbot (type 'exit' to quit)")
+    print("Fotis-AI Chatbot (type 'exit' to quit)")
     while True:
         user_input = input("You: ")
         if user_input.lower() == "exit":
             break
         reply = chat(user_input)
-        print(f"AI: {reply}")
+        print(f"Fotis-AI: {reply}")
